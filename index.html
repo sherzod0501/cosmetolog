@@ -9,11 +9,70 @@
 </head>
 
 <body>
+
+
+    <div class="homburger" id="myLinks">
+        <div class="homburger__child">
+            <div class="homburger__top__right">
+               <div onclick="myFunction()" class="homburger__top__close">
+                <button class="homburger__close__btn">
+                    <img class="homburger__close" width="30" height="30" src="./img/close.png" alt="bu yopish tugmasi bor" >
+                </button>
+                <a  class="homburger__top__link" href="tel:0 800 508-622">0 (800) 508-622</a>
+               </div>
+            <div class="homburger__selects">
+                <img class="homburger__select__img" src="./img/rf.png" width="41" height="41" alt="bu yerda russia bayrogini rasmi bor" >
+                <select  class="homburger__select">
+                    <option value="ru" visually-hidden="hidden"></option>
+                    <option  value="uz">uzbek</option>
+                    <option value="en">english</option>
+                </select>
+            </div>
+            </div> <!--header__top__right-->
+            <ul class="homburger__child__baby">
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Курсы обучения</a>
+                </li>
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Вебинары</a>
+                </li>
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Видео-уроки</a>
+                </li>
+                <li class="header__item  homburger__item">
+                    <a class="header__item__link" href="#" > Блог</a>
+                </li>
+                <li class="header__item  homburger__item">
+                    <a class="header__item__link" href="#" >О нас</a>
+                </li>
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Прайс</a>
+                </li>
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Рассписание</a>
+                </li>
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Акции</a>
+                </li>
+                <li class="header__item homburger__item">
+                    <a class="header__item__link" href="#" >Магазин</a>
+                </li>
+            </ul>
+            <div class="homburger__icons">
+                <a class="homburger__top__link__fc" href="#" >
+                    <img  class="homburger__top__link__img" src="./img/fackbook.png.png" width="28" height="28" alt="bu yerda fackbook rami bor">
+                </a>
+                <a class="homburger__top__link__ins" href="#" >
+                 <img  class="homburger__top__link__img" src="./img/inst.png.png" width="29" height="29" alt="bu yerda instagram rami bor">
+             </a>
+               </div>
+        </div> <!--homburger__child end-->
+    </div> <!--homburger end-->
   <header class="header">
  <div class="header__main">
     <div class="container header__top__container">
         <div class="header__top__left">
-           <a href="#"> <img  class="header__img" src="./img/logo.svg" width="226" height="63" alt="bbu yerda logo rami bor"></a>
+           <a href="index.html"> <img  class="header__img" src="./img/logo.svg" width="226" height="63" alt="bbu yerda logo rami bor"></a>
         </div>
         <div class="header__top__right">
             <a  class="header__top__link" href="tel:0 800 508-622">0 (800) 508-622</a>
@@ -76,7 +135,7 @@
             <img  class="header__mobile__logo__img" src="./img/logo-single.svg" width="74" height="74" alt="bu yerda logo-single rasmi bor">
         </a>
         <a  class="header__mobile__link" href="tel:0 800 508-622">0 (800) 508-622</a>
-        <button class="header__mobile__btn">
+        <button onclick="myFunction()" class="header__mobile__btn">
             <img class="header__humberger__img" src="./img/hamburger.png" width="49" height="24" >
         </button>
     </div>
@@ -92,12 +151,82 @@
        <div class="hero__texts">
         <p class="hero__text">
             Ведущий учебный центр эстетической косметологии. Более 5 лет мы проводим сертифицированные курсы профессионального образования в области косметологии и индустрии красоты.
-    
+    <br> <br>
             В данный момент в Харькове нет аналогов нашего учебного центрапо уровню подготовки и разнообразию читаемых курсов. Все выпускники нашего учебного центра востребованы в: институтах омоложения и здоровья, Спа-центрах, салонах красоты, частных клиниках и других организация в сфере "красоты и здоровья". 
           </p>
        </div>
      </div>
+  </section> <!--hero end-->
+
+  <section class="komfort">
+      <h2 class="container komfort__heading">Мы - это обучение с  комфортом</h2>
+      <div class="container komfort__container">
+          <div class="komfort__one">
+           <div class="komfort__one__right">
+            <h3 class="komfort__head"> <span class="komfort__border">Удобный формат обучения</span></h3>
+            <p class="komfort__text">Мы стараемся для вас и делаем обучение еще комфортнее!
+                <br> <br>
+                У нас вы можете обучаться в формате оффлайн или выбирать онлайн формат обучения. Наши мастер-классы дублируются в двух форматах
+                </p>
+           </div>
+                <img class="komfort__img" src="./img/main1.png" width="488" height="396" alt="bu yerda ayol kishini rasmi bor" >
+          </div>
+          <div class="komfort__two">
+           <div class="komfort__two__left">
+            <h3 class="komfort__head"> <span class="komfort__border"> Светлые аудитории</span></h3>
+            <p class="komfort__text">Мы стараемся для вас и делаем обучение еще комфортнее!
+                <br> <br>
+                У нас вы можете обучаться в формате оффлайн или выбирать онлайн формат обучения. Наши мастер-классы дублируются в двух форматах
+                </p>
+           </div>
+                <img class="komfort__img" src="./img/main2.png" width="488" height="396" alt="bu yerda ayol kishini rasmi bor" >
+          </div>
+          <div class="komfort__one">
+           <div class="komfort__one__right">
+            <h3 class="komfort__head"> <span class="komfort__border">Обучение в маленьких группах</span> </h3>
+            <p class="komfort__text">Мы стараемся для вас и делаем обучение еще комфортнее!
+                <br> <br>
+                У нас вы можете обучаться в формате оффлайн или выбирать онлайн формат обучения. Наши мастер-классы дублируются в двух форматах
+                </p>
+           </div>
+                <img class="komfort__img" src="./img/main3.png" width="488" height="396" alt="bu yerda ayol kishini rasmi bor" >
+          </div>
+      </div> <!--komfort__container end-->
+  </section> <!--komfort end-->
+
+  <section class="user">
+    <h3 class="user__heading container">Наши достижения</h3>
+      <div class="container user__container">
+          <ul class="user__list">
+              <li class="user__item user__item1">
+                  <h4 class="user__head">4000+</h4>
+                  <p class="user__text">Сертификатов мы выдали</p>
+              </li>
+              <li class="user__item user__item1">
+                <h4 class="user__head">3500+</h4>
+                <p class="user__text">Моделей в нашей базе</p>
+            </li>
+            <li class="user__item user__item2">
+                <h4 class="user__head">1500+</h4>
+                <p class="user__text">Специалистов мы обучили</p>
+            </li>
+            <li class="user__item user__item2">
+                <h4 class="user__head">5500+</h4>
+                <p class="user__text">Довольных клиентов</p>
+            </li>
+          </ul>
+      </div>
   </section>
 </body>
+<script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "none") {
+    x.style.display = "flex";
+    } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 </html>

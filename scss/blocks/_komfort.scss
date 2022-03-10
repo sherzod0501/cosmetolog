@@ -1,0 +1,305 @@
+.komfort {
+
+    &__heading {
+        text-align: center;
+        color:  #55A630;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 0px;
+        margin-bottom: 75px;    
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        margin-bottom: 175px;
+    }
+
+    &__one {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 122px;
+    }
+
+    &__two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__head {
+        margin-bottom: 74px;
+        color: #424242;
+        opacity: 0.8;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 26px;   
+    }
+
+    &__border {
+        border-bottom:  2px solid #55A630; 
+        width: 133px;
+    }
+    
+    &__text {
+        color:#424242;
+        opacity: 0.8;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 33px;    
+    }
+
+
+    @media only screen and (max-width: 1000px) {
+        &__heading {
+            text-align: center;
+            color:  #55A630;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 0px;  
+            margin-bottom: 50px;    
+        }
+    
+        &__container {
+            display: flex;
+            flex-direction: column;
+            gap: 56px;
+            margin-bottom: 140px;
+        }
+    
+        &__one {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 81px;
+        }
+    
+        &__two {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        &__head {
+            margin-bottom: 62px;
+            color: #424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 26px;   
+        }
+    
+        &__border {
+            border-bottom:  2px solid #55A630; 
+            width: 130px;
+        }
+        
+        &__text {
+            color:#424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px; 
+        }
+    
+        &__img {
+            width: 389px;
+            height: 265px;
+        }
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        &__heading {
+            text-align: center;
+            color:  #55A630;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 0px;
+            margin-bottom: 51px;    
+        }
+    
+        &__container {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin-bottom: 100px;
+        }
+    
+        &__one {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 54px;
+        }
+    
+        &__two {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        &__head {
+            margin-bottom: 49px;
+            color: #424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px; 
+        }
+    
+        &__border {
+            border-bottom:  2px solid #55A630; 
+            width: 75px;
+        }
+        
+        &__text {
+            color:#424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    
+        &__img {
+            width: 256px;
+            height: 226px;
+        }
+    }
+
+
+    @media only screen and (max-width: 480px) {
+        &__heading {
+            text-align: center;
+            color:  #55A630;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 0px;
+            margin-bottom: 40px;    
+        }
+    
+        &__container {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin-bottom: 80px;
+        }
+    
+        &__one {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 18px;
+        }
+    
+        &__two {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 18px;
+        }
+    
+        &__head {
+            margin-bottom: 35px;
+            color: #424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px; 
+        }
+    
+        &__border {
+            border-bottom:  2px solid #55A630; 
+            width: 75px;
+        }
+        
+        &__text {
+            color:#424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    
+        &__img {
+            width: 360px;
+            height: 156px;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        &__heading {
+            text-align: center;
+            color:  #55A630;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            margin-bottom: 40px;    
+        }
+    
+        &__container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+    
+        &__one {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 18px;
+        }
+    
+        &__two {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 18px;
+        }
+    
+        &__head {
+            margin-bottom: 35px;
+            color: #424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px; 
+        }
+    
+        &__border {
+            border-bottom:  2px solid #55A630; 
+            width: 75px;
+        }
+        
+        &__text {
+            color:#424242;
+            opacity: 0.8;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    
+        &__img {
+            width: 300px;
+            height: 156px;
+        }
+    }
+}

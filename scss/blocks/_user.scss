@@ -1,0 +1,251 @@
+.user {
+    background-color:#ECF9EB;
+
+    &__container {
+        background-color: #ffffff;
+        box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+        margin-bottom: 76px;
+    }
+
+    &__heading {
+        text-align: center;
+        color: #55A630;        
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 40px;    
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__item {
+        padding-top: 50px;
+        padding-bottom: 51px;
+    }
+
+    &__head {
+        text-align: center;
+        color: #55A630;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    &__text {
+        text-align: center;
+        color: #424242;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        width: 185px;
+    }
+
+
+    @media only screen and (max-width:1000px) {
+        &__container {
+            background-color: #ffffff;
+            box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+            margin-bottom: 65px;
+        }
+    
+        &__heading {
+            text-align: center;
+            color: #55A630;        
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 40px;    
+            margin-top: 46px;
+            margin-bottom: 50px;
+        }
+    
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+        &__item {
+            padding-top: 43px;
+            padding-bottom: 38px;
+        }
+    
+        &__head {
+            text-align: center;
+            color: #55A630;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+        }
+    
+        &__text {
+            text-align: center;
+            color: #424242;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 21px;
+            width: 142px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        &__container {
+            background-color: #ffffff;
+            box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+            margin-bottom: 56px;
+        }
+    
+        &__heading {
+            text-align: center;
+            color: #55A630;        
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 40px;   
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+        &__item {
+            padding-top: 9px;
+            padding-bottom: 12px;
+        }
+    
+        &__head {
+            text-align: center;
+            color: #55A630;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 32px;
+        }
+    
+        &__text {
+            text-align: center;
+            color: #424242;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            width: 120px;
+        }
+    }
+
+
+    @media only screen and (max-width: 480px) {
+        &__container {
+            background-color: #ffffff;
+            box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+            margin-bottom: 44px;
+        }
+    
+        &__heading {
+            text-align: center;
+            color: #55A630;        
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 40px;   
+            margin-top: 35px;
+            margin-bottom: 40px;
+        }
+    
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+        &__item {
+            padding-top: 9px;
+            padding-bottom: 12px;
+        }
+    
+        &__head {
+            text-align: center;
+            color: #55A630;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 32px;
+        }
+    
+        &__text {
+            text-align: center;
+            color: #424242;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            width: 120px;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        &__container {
+            background-color: #ffffff;
+            box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+            margin-bottom: 24px;
+        }
+    
+        &__heading {
+            text-align: center;
+            color: #55A630;        
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 40px; 
+            margin-top: 35px;
+            margin-bottom: 17px;
+        }
+    
+        &__list {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 22px;
+            padding-bottom: 22px;
+        }
+    
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+    
+        &__head {
+            text-align: center;
+            color: #55A630;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 45px;
+        }
+    
+        &__text {
+
+            color: #424242;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            width: 120px;
+        }
+    }
+}

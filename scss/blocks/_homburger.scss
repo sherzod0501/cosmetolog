@@ -1,0 +1,83 @@
+.homburger{
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.404);
+    z-index: 1;
+    &__child{
+        width: 368px;
+        height: 796px;
+        background-color: white;
+        padding-top: 28px;
+        padding-left: 33px;
+
+        &__baby{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+    }
+
+    &__top__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top__close {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 39px;
+    }
+
+    &__close__btn {
+        border: none;
+        background-color: #ffffff;
+        padding-right: 25px;
+    }
+
+    &__top__link {
+        display: flex;
+        color: #303236;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        transform: rotate(0.1deg);
+        order: -1;
+        &::before {
+            content: '';
+            width: 23px;
+            height: 23px;
+            display: block;
+            background-image: url(../img/tel.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-right: 12px;
+        }
+    }
+
+    &__selects {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    &__select {
+        border: none;
+    }
+
+    &__item {
+       margin-bottom: 30px;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+}

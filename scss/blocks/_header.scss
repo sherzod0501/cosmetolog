@@ -73,6 +73,10 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;    
+
+        &:hover {
+            color: #55A630;
+        }
     }
 
     &__mobile__container {
@@ -135,6 +139,7 @@
 
         &__mobile__logo__img {
             text-align: center;
+            margin-left: 50px;
         }
     
         &__mobile__link::before {
@@ -182,6 +187,7 @@
             text-align: center;
             width: 70px;
             height: 72px;
+            margin-left: 115px;
         }
     
         &__mobile__link::before {
@@ -234,6 +240,7 @@
             text-align: center;
                 width: 75px;
                 height: 46px;
+                margin-left: 50px;
         }
     
         &__mobile__link::before {
