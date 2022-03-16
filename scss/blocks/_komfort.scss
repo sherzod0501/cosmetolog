@@ -38,12 +38,19 @@
         font-weight: 600;
         font-size: 32px;
         line-height: 26px;   
+
+    &::after {
+        content: "";
+        display: block;
+        width: 133px;
+        height: 2px;
+        background-image: url(../img/Line33.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 15px;
+    }
     }
 
-    &__border {
-        border-bottom:  2px solid #55A630; 
-        width: 133px;
-    }
     
     &__text {
         color:#424242;
@@ -52,6 +59,11 @@
         font-weight: 500;
         font-size: 25px;
         line-height: 33px;    
+    }
+
+    &__img {
+        width: 488px;
+        height: auto;
     }
 
 
@@ -93,13 +105,20 @@
             font-style: normal;
             font-weight: 600;
             font-size: 25px;
-            line-height: 26px;   
+            line-height: 26px; 
+            
+            &::after {
+                content: "";
+                display: block;
+                width: 133px;
+                height: 2px;
+                background-image: url(../img/Line33.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 15px;
+            }
         }
     
-        &__border {
-            border-bottom:  2px solid #55A630; 
-            width: 130px;
-        }
         
         &__text {
             color:#424242;
@@ -112,7 +131,7 @@
     
         &__img {
             width: 389px;
-            height: 265px;
+            height:auto;
         }
     }
 
@@ -156,12 +175,18 @@
             font-weight: 600;
             font-size: 18px;
             line-height: 26px; 
+            &::after {
+                content: "";
+                display: block;
+                width: 75px;
+                height: 2px;
+                background-image: url(../img/Line29.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 15px;
+            }
         }
     
-        &__border {
-            border-bottom:  2px solid #55A630; 
-            width: 75px;
-        }
         
         &__text {
             color:#424242;
@@ -174,7 +199,7 @@
     
         &__img {
             width: 256px;
-            height: 226px;
+            height:auto;
         }
     }
 
@@ -219,12 +244,18 @@
             font-weight: 600;
             font-size: 18px;
             line-height: 26px; 
+            &::after {
+                content: "";
+                display: block;
+                width: 75px;
+                height: 2px;
+                background-image: url(../img/Line29.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 14px;
+            }
         }
     
-        &__border {
-            border-bottom:  2px solid #55A630; 
-            width: 75px;
-        }
         
         &__text {
             color:#424242;
@@ -237,7 +268,7 @@
     
         &__img {
             width: 360px;
-            height: 156px;
+            height: auto;
         }
     }
 
@@ -281,12 +312,19 @@
             font-weight: 600;
             font-size: 18px;
             line-height: 26px; 
+
+            &::after {
+                content: "";
+                display: block;
+                width: 75px;
+                height: 2px;
+                background-image: url(../img/Line29.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 12px;
+            }
         }
     
-        &__border {
-            border-bottom:  2px solid #55A630; 
-            width: 75px;
-        }
         
         &__text {
             color:#424242;
@@ -299,7 +337,7 @@
     
         &__img {
             width: 300px;
-            height: 156px;
+            height: auto;
         }
     }
 }
